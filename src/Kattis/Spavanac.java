@@ -1,4 +1,4 @@
-package Kattis;
+package Done;
 
 import java.util.Scanner;
 
@@ -19,16 +19,17 @@ public class Spavanac {
         int sum = h*60+m-d;
 
 
-       if (sum <d && sum !=0 ) {
+        if (sum <d && sum !=0 ) {
             tunnit = 23;
             minuutit = 60+m-d;
 
         } else {
 
-        tunnit = sum/60;
-        minuutit = sum%60;}
+            tunnit = sum/60;
+            minuutit = sum%60;}
 
 
         System.out.println(tunnit +" "+ minuutit);
-        }
+    }
 }
+

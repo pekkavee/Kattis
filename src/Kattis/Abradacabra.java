@@ -1,10 +1,7 @@
-package Kattis;
+package Done;
 
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 14.12.2017.
- */
 public class Abradacabra {
     public static void main(String[] args) {
         String x = " Abracadabra";

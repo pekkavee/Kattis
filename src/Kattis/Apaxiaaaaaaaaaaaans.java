@@ -1,4 +1,5 @@
-package Kattis;
+package Done;
+
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;

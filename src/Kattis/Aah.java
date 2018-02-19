@@ -1,12 +1,8 @@
-package Kattis;
+package Done;
 
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 13.12.2017.
- */
 public class Aah {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();

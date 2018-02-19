@@ -1,10 +1,7 @@
-package Kattis;
+package Done;
 
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 14.12.2017.
- */
 public class Carrots {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,3 +15,4 @@ public class Carrots {
         System.out.println(b);
     }
 }
+

@@ -1,12 +1,9 @@
-package Kattis;
+package Done;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 14.12.2017.
- */
 public class Oddities {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,7 +15,7 @@ public class Oddities {
 
             int x = sc.nextInt();
             lista.add(x);
-            }
+        }
         for (Integer num:lista) {
             if (num%2==0) {
                 System.out.println(num +" is even");

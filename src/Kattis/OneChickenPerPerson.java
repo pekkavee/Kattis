@@ -1,24 +1,32 @@
-package Kattis;
+package Done;
 
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 14.12.2017.
- */
 public class OneChickenPerPerson {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        sc.close();
 
-        if (a<b) {
-            System.out.println(
-                    "Dr. Chaz will have " + (b-a) + " pieces of chicken left over!"
-            );
-        } else {
-            System.out.println("Dr. Chaz needs"+ (a-b)+ "more pieces of chicken!");
+
+        Scanner in = new Scanner(System.in);
+
+        int x = in.nextInt();
+        int y = in.nextInt();
+        int erotus = Math.abs(x - y);
+
+
+        if (x > y) {
+            if (erotus == 1) {
+                System.out.println("Dr. Chaz needs " + erotus + " more piece of chicken!");
+            } else {
+                System.out.println("Dr. Chaz needs " + erotus + " more pieces of chicken!");
+            }
+        } else if (y > x) {
+            if (erotus == 1) {
+                System.out.println("Dr. Chaz will have " + erotus + " piece of chicken left over!");
+            } else {
+                System.out.println("Dr. Chaz will have " + erotus + " pieces of chicken left over!");
+            }
+
         }
     }
-
 }
+

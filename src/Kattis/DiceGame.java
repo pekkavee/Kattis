@@ -1,11 +1,7 @@
-package Kattis;
+package Done;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * Created by Administrator on 15.12.2017.
- */
 public class DiceGame {
     public static void main(String[] args) {
 //        ArrayList<Integer>gunnar = new ArrayList<Integer>();
